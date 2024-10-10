@@ -1,0 +1,42 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+
+{% block css%}
+<link rel="stylesheet" href="{% static 'css/project.css' %}">
+{% endblock css%}
+
+{% block content %}
+        <div id="project-section">
+
+          <div class="container">
+          <h1>Past Projects</h1>
+
+      <div class="card">
+        <h2>Java GUI</h2>
+        <p>JAVA Project </p>
+        <span>JAVA Project </span>
+       <a href="#">
+        <div class="pic"></div>
+        <button></button></a>
+      </div>
+      <div class="description"><p>This is a group project created to implement JAVA GUI and OOP concept. <br>The project does not have CRUD functions yet.
+              It is a basic point-of-sale system for a fast food chain.
+          </p>
+      </div>
+      <div class="card card2">
+        <h2>JAVA Project</h2>
+        <p>Inventory System</p>
+        <span>JAVA Project</span>
+        <a href="#">
+        <div class="pic"></div>
+        <button></button></a>
+      </div>
+      <div class="description"><p>An unfinished personal project in an attempt to implement CRUD operation and Server Management.<br>
+              The project is an inventory system that aims to digitalized stock management for easier and more efficient operation.
+      </p></div>
+    </div>
+      </div>
+
+    </div>
+{% endblock %}
+{% block js %}<script src="{% static 'js/scripts.js' %}"></script>{% endblock js%}
