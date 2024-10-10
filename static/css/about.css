@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+#changingSentence, #wordToChange{
+    font-size: 2rem;
+}
+
+
+
+.left-container {
+    height: 80vh;
+}
+
+.right-container {
+    height: 80vh;
+}
+
